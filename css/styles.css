@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1577ef;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f4f4f4;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.portfolio-item {
+    margin: 20px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1957f4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #1b65f9;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2ccbf7;
+}
+
+tr:hover {
+    background-color: #217cfc;
+}
+
+/* Style the table header */
+thead {
+    background-color: #3f62fc;
+    color: white;
+}
+
+/* Style the links inside the table */
+td a {
+    color: #f60415;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm <i>Sharath</i>, a passionate developer/designer.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I've been working in the industry for over 3 years...</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th>Description</th>
+                        <th>Technologies</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Photo to Anime</td>
+                        <td><img src="output.png" alt="Project 1" height="250px" width="550px"></td>
+                        <td>IntelVinoPython API, Tensorflow, FastAPI</td>
+                        <td><a href="https://github.com/wolfgangtechlabs" target="_blank">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>Travel WebApp</td>
+                        <td>This is a webapp meant for people who like to travel.</td>
+                        <td>HTML, CSS, Mobile Queries</td>
+                        <td><a href="https://github.com/wolfgangtechlabs/FED_Final_Project" target="_blank">View</a></td>
+                    </tr>
+                    <!-- Add more rows as needed for additional projects -->
+                </tbody>
+            </table>
+        </div>        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2023 by Sharath Mohan. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
